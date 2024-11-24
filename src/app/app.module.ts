@@ -6,6 +6,7 @@ import {ProductModule} from './product/product.module';
 import {HttpClientModule} from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from "@angular/material/button";
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     ProductModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
