@@ -3,3 +3,23 @@
 body{
   font-family: 'sans-serif';
 }
+
+.navbar {
+  background-color: transparent !important;
+}
+
+
+.form-container {
+  max-width: 400px; /* Restrict form width */
+  margin: 0 auto; /* Center form horizontally */
+  padding: 20px; /* Inner spacing */
+  border: 1px solid #dee2e6; /* Light border */
+  border-radius: 8px; /* Rounded edges */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Elevation effect */
+  background-color: #ffffff; /* Explicit form background */
+}
+
+.form-header {
+  text-align: center; /* Center align form title */
+  margin-bottom: 20px; /* Space below the header */
+}
